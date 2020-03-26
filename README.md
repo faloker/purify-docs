@@ -11,7 +11,7 @@ It covers a several topics:
 3. Basic usage
 
 {% hint style="info" %}
-In the rest of documentation, all HTTP requests in snippets are performed with [httpie](https://httpie.org/).
+In the rest of the documentation, all HTTP requests in snippets are performed using [httpie](https://httpie.org/).
 {% endhint %}
 
 
