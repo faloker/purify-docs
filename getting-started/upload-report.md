@@ -22,8 +22,8 @@ Now you can upload a report
 {% hint style="info" %}
 The parameter **unit** represents a **unit's slug**, not a unit's name. It the example below
 
-```bash
-"unit=gitleaks-test"
+```text
+unit=gitleaks-test
 ```
 
 It means that the project name is **gitleaks** and the unit name is **test**.
