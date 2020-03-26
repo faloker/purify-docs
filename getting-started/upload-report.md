@@ -20,7 +20,7 @@ http POST https://purifyhost/api/auth/token \
 Now you can upload a report
 
 {% hint style="info" %}
-The parameter **unit** represents a **unit's slug**, not a unit's name. It the example below
+The parameter **unit** represents a **slug**, not a unit name. It the example below
 
 ```text
 unit=gitleaks-test
