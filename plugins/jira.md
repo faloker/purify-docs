@@ -54,5 +54,11 @@ Currently, when Purify creates a Jira ticket, it sets **Unassigned** as the assi
 Purify will convert markdown, into Jira compatible markdown, so your issue will look exactly like the preview.
 {% endhint %}
 
-\*\*\*\*
+## Extras
+
+> In addition, Purify will track changes in created tickets, and if tickets will be resolved, Purify will also close them.
+
+When it happens, Purify will add the following comment to the issue:
+
+![](../.gitbook/assets/screenshot-2020-03-27-at-00.31.19.png)
 
