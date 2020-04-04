@@ -2,7 +2,7 @@
 description: Here you can a way how to upload your reports to Purify.
 ---
 
-# Upload Report
+# Reports
 
 ## Requirements
 

@@ -4,7 +4,7 @@ description: >-
   template creation.
 ---
 
-# Create Template
+# Templates
 
 ## Overview
 

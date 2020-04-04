@@ -5,8 +5,8 @@
 ## Usage
 
 * [Getting Started](getting-started/README.md)
-  * [Upload Report](getting-started/upload-report.md)
-  * [Create Template](getting-started/create-template.md)
+  * [Reports](getting-started/upload-report.md)
+  * [Templates](getting-started/create-template.md)
   * [Issues](getting-started/issues.md)
 * [Plugins](plugins/README.md)
   * [Jira](plugins/jira.md)
