@@ -7,6 +7,7 @@
 * [Getting Started](getting-started/README.md)
   * [Upload Report](getting-started/upload-report.md)
   * [Create Template](getting-started/create-template.md)
+  * [Issues](getting-started/issues.md)
 * [Plugins](plugins/README.md)
   * [Jira](plugins/jira.md)
   * [Slack](plugins/slack.md)
