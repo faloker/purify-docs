@@ -4,11 +4,11 @@
 
 The hierarchy of Purify is simple: 
 
-1. Project \(the root component\) 
-2. Units \(the direct child of a project\) 
-3. Reports \(belong to a unit\) 
-4. Templates \(attached to a report and used to parse issues\) 
-5. Issues \(extracted from a report and formatted based on a template\)
+1. **Project** - the root component, can be a dedicated software project or a roaster of team projects
+2. **Unit** - the direct child of a project, may represent releases, sub-projects, or any other type of separation that makes sense to you
+3. **Report** - belong to a unit
+4. **Template** - attached to a report and used to parse issues
+5. **Issue** - extracted from a report and formatted based on a template
 
 ## Play with it
 
