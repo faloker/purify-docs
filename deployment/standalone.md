@@ -19,7 +19,7 @@ Create your own **.env** file based on this [example](https://github.com/faloker
 JWT_SECRET=changeme
 
 # pass uri with credentials if needed
-MONGODB_URI=mongodb://localhost:27017
+MONGODB_URI=mongodb://root:example@mongo:27017
 
 # just any string
 DB_NAME=purify
