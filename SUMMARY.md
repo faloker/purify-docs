@@ -19,3 +19,7 @@
 * [Standalone](deployment/standalone.md)
 * [With Nginx and MongoDB](deployment/with-nginx-and-mongodb.md)
 
+## Authentication
+
+* [LDAP](ldap.md)
+
