@@ -10,7 +10,7 @@ description: >-
 
 Purify can be configured to support authentication through LDAP instead of local authentication. If you will enable LDAP authentication you will not be able to login with local user account.
 
-Under the hood [https://github.com/vesse/passport-ldapauth](https://github.com/vesse/passport-ldapauth) is used to make it possible.
+Under the hood [passport-ldapauth](https://github.com/vesse/passport-ldapauth) is used to make it possible.
 
 ## Configuration
 
@@ -42,7 +42,7 @@ Tweak `LDAP_SEARCH_FILTER` to include groups user should be part of.
 
 ## Extra
 
-After enabling authentication via LDAP it may make sense to remove registration flow.
+After enabling authentication via LDAP, it might make sense to remove the registration flow.
 
 To do so, set `ALLOW_REGISTRATION=false` in your env file.
 
