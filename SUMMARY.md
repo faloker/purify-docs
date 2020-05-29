@@ -12,6 +12,7 @@
   * [Jira](plugins/jira.md)
   * [Slack](plugins/slack.md)
   * [Email](plugins/email.md)
+* [Swagger](swagger.md)
 * [Report Samples](report-samples.md)
 
 ## Deployment
