@@ -2,13 +2,39 @@
 
 ## Architecture
 
-The hierarchy of Purify is simple: 
+Breakdown of the main parts of Purify.
 
-1. **Project** - the root component, can be a dedicated software project or a roaster of team projects
-2. **Unit** - the direct child of a project, may represent releases, sub-projects, or any other type of separation that makes sense to you
-3. **Report** - belong to a unit
-4. **Template** - attached to a report and used to parse issues
-5. **Issue** - extracted from a report and formatted based on a template
+### **Project**
+
+The root component, can be a dedicated software project or a roaster of team projects.
+
+### Unit
+
+The direct child of a project, may represent releases, sub-projects, or any other type of separation that makes sense to you.
+
+### Report
+
+Belong to the unit. Delivered from any tool of your choice. The only requirement that it should be JSON or XML document.
+
+{% hint style="success" %}
+[How to upload a report](upload-report.md)
+{% endhint %}
+
+### **Template**
+
+Using templates, you can remove duplicate results from the same tool, as well as similar findings from different tools.
+
+{% hint style="success" %}
+[How to create a template](create-template.md)
+{% endhint %}
+
+### Issue
+
+Extracted from the report and formatted based on the template. The Issue is a flexible representation of the results from the report, because you decide which field to display and how.
+
+{% hint style="success" %}
+[How to operate with issues](issues.md)
+{% endhint %}
 
 ## Play with it
 

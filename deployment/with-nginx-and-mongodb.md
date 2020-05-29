@@ -11,7 +11,12 @@ This deployment is based on two docker images:
    3. serve files over http2
 3. [https://hub.docker.com/\_/mongo](https://hub.docker.com/_/mongo) \(if you want local mongodb\)
 
+## Local setup
 
+To start the Purify locally without certificates and other production things, you can do the following:
+
+1. Clone repository
+2. Run `docker-compose -f docker-compose.tests.yml up --build`
 
 ## Configuration
 
