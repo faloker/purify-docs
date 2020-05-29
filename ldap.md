@@ -10,7 +10,7 @@ description: >-
 
 Purify can be configured to support authentication through LDAP instead of local authentication. If you will enable LDAP authentication you will not be able to login with local user account.
 
-Under the hood [passport-ldapauth](https://github.com/vesse/passport-ldapauth) is used to make it possible.
+Under the hood [https://github.com/vesse/passport-ldapauth](https://github.com/vesse/passport-ldapauth) is used to make it possible.
 
 ## Configuration
 
