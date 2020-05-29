@@ -1,10 +1,10 @@
 # Plugins
 
-Currently, Purify supports Slack and Jira. Also, there is SMTP module, but it is not use at the moment.
+Currently, Purify supports [Slack](slack.md) and [Jira](jira.md). Also, there is [SMTP](email.md) module, but it is not use at the moment.
 
 List of packages used for these modules:
 
-* Jira - [https://www.npmjs.com/package/jira-connector](https://www.npmjs.com/package/jira-connector)
-* SMTP - [https://www.npmjs.com/package/nodemailer](https://www.npmjs.com/package/nodemailer)
-* Slack - [https://www.npmjs.com/package/@slack/webhook](https://www.npmjs.com/package/@slack/webhook)
+* [jira-connector](https://www.npmjs.com/package/jira-connector)
+* [nodemailer](https://www.npmjs.com/package/nodemailer)
+* [@slack/webhook](https://www.npmjs.com/package/@slack/webhook)
 
