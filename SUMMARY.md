@@ -4,6 +4,8 @@
 
 ## Usage
 
+---
+
 * [Getting Started](getting-started/README.md)
   * [Reports](getting-started/upload-report.md)
   * [Templates](getting-started/create-template.md)
@@ -22,5 +24,8 @@
 
 ## Authentication
 
+---
+
 * [LDAP](ldap.md)
+* [SSO](sso.md)
 

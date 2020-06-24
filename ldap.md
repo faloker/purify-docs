@@ -1,7 +1,5 @@
 ---
-description: >-
-  Here you can find instructions on how to configure authentication through
-  LDAP.
+description: Here you can find instructions on how to configure authentication via LDAP.
 ---
 
 # LDAP
@@ -10,11 +8,11 @@ description: >-
 
 Purify can be configured to support authentication through LDAP instead of local authentication. If you will enable LDAP authentication you will not be able to login with local user account.
 
-Under the hood [https://github.com/vesse/passport-ldapauth](https://github.com/vesse/passport-ldapauth) is used to make it possible.
+Under the hood [passport-ldapauth](https://github.com/vesse/passport-ldapauth) is used to make it possible.
 
 ## Configuration
 
-You need to provide a set of credentials via env file:
+You need to provide a set of credentials via `.env` file:
 
 ```bash
 LDAP_URL=ldaps://my.corp.net:636
