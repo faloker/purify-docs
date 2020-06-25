@@ -32,10 +32,10 @@ SAML_EMAIL_FIELD_NAME=email
 SAML_USERNAME_FIELD_NAME=name
 ```
 
-`SAML_LOCAL_KEY_PATH` or `SAML_LOCAL_KEY_ONELINE` can be set in two ways: 
+`SAML_LOCAL_KEY` can be set in two ways: 
 
-* via path of the mounted file into the docker container
-* alternatively a single line private key without start/end lines where all rows are joined into single line, see example from of [singleline private key](https://github.com/bergie/passport-saml/blob/master/test/static/singleline_acme_tools_com.key).
+* `SAML_LOCAL_KEY_PATH` via path of the mounted file into the docker container
+* `SAML_LOCAL_KEY_ONELINE` alternatively a single line private key without start/end lines where all rows are joined into single line, see example from of [singleline private key](https://github.com/bergie/passport-saml/blob/master/test/static/singleline_acme_tools_com.key).
 
 The same work for `SAML_IDP_CERT_PATH` and `SAML_IDP_CERT_ONELINE`.
 
