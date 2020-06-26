@@ -15,7 +15,7 @@ Under the hood [passport-saml](https://github.com/bergie/passport-saml) is used 
 You need to provide a set of credentials via `.env` file:
 
 ```bash
-SAML_CALLBACK_URL=https://<server_fqdn>/api/auth/saml/callback
+SAML_CALLBACK_URL=https://<purify_fqdn>/api/auth/saml/callback
 SAML_IDP_URL=https://dev-xxxx-xxx.us.auth0.com/xxx/xxxxx
 SAML_ENTITY_ID=urn:dev-xxxx-xxx.us.auth0.com
 
