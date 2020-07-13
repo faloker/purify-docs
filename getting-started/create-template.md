@@ -32,7 +32,12 @@ Click on the **Apply Template** button and you will see the template configurato
 
 ### Step 1
 
-You will need to select an array with issues. **Why?**   
+You will need to select an array with issues. **Why?**
+
+{% hint style="warning" %}
+If you uploaded the **oneshot**, and not a file, then you do not need to perform this step, go to the second step.
+{% endhint %}
+
 Sometimes ****security tool reports may contain some additional debug or configuration information that is completely pointless to you. Purify will extract all arrays from the document and show you an example of their elements, you will need to **select an array containing the scan results**.
 
 ![Gitleaks report have only one array inside](../.gitbook/assets/screenshot-2020-04-04-at-12.02.34.png)
