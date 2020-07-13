@@ -19,11 +19,13 @@ http POST https://purifyhost/api/auth/token \
     password="pass"
 ```
 
-## Action
+## Uploading
 
-Now you can upload a report
+### File
 
-{% hint style="info" %}
+Now you can upload the report as **JSON** or **XML** file.
+
+{% hint style="warning" %}
 The parameter **unit** represents a **slug**, not a unit name. In the example below
 
 ```text
@@ -34,19 +36,32 @@ It means that the project name is **gitleaks** and the unit name is **test**.
 {% endhint %}
 
 ```bash
-http -f POST https://purifyhost/api/reports \
-    "apikey: token" \
-    "unit=gitleaks-test" \
-    file@/path/to/gitleaks-report.json
+http -f POST https://purify-demo.herokuapp.com/api/upload/file/main-examples \
+    "apikey: xxxxxxxxx"  \
+    file@Downloads/zap-example.xml
 ```
 
 If you already created a template for such tool, you need to provide it, so report content will be parsed automatically
 
 ```bash
-http -f POST https://purifyhost/api/reports \
-    "apikey: token" \
-    "unit=gitleaks-test" \
-    "template=gitleaks" \
-    file@/path/to/gitleaks-report.json
+http -f POST https://purify-demo.herokuapp.com/api/upload/file/main-examples/zap \
+    "apikey: xxxxxxxxx"  \
+    file@Downloads/zap-example.xml
 ```
+
+### Oneshot
+
+In addition, you can upload your results as separate JSON objects. The most common use case is getting events from the webhook from other tools or systems.
+
+To upload a oneshot:
+
+```bash
+http POST https://purify-demo.herokuapp.com/api/upload/oneshot/main-examples \
+    "apikey: xxxxxxxxx" \
+    < Downloads/gitleaks-one-object.json
+```
+
+## API Reference
+
+[https://purify-demo.herokuapp.com/swagger/\#/upload](https://purify-demo.herokuapp.com/swagger/#/upload)
 
