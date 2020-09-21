@@ -4,6 +4,8 @@ description: Welcome to the Purify documentation!
 
 # Introduction
 
+![](.gitbook/assets/blank-diagram-6-.png)
+
 ## Description
 
 The goal of Purify to be an easy-in-use and efficient tool to simplify a workflow of managing vulnerabilities delivered from various \(even customs\) tools.
