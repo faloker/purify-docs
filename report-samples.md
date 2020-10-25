@@ -18,5 +18,7 @@ description: Here you can find several reports that you can use to play with Pur
 
 
 
+## More samples
 
+To get more samples you can use [https://github.com/DefectDojo/sample-scan-files](https://github.com/DefectDojo/sample-scan-files).
 
