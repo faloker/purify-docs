@@ -25,7 +25,7 @@ Now you can upload the report as **JSON** or **XML** file.
 osint.google
 ```
 
-The project name is **osint** and the unit name is **company**.
+The project name is **osint** and the unit name is **google**.
 {% endhint %}
 
 ```bash
