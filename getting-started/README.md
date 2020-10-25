@@ -4,15 +4,15 @@
 
 Breakdown of the main parts of Purify.
 
-### **Project**
+#### **Project**
 
-The root component, can be a dedicated software project or a roaster of team projects.
+The root component can be a single software project or a collection of team projects.
 
-### Unit
+#### Unit
 
 The direct child of a project, may represent releases, sub-projects, or any other type of separation that makes sense to you.
 
-### Report
+#### Report
 
 Belong to the unit. Delivered from any tool of your choice. The only requirement that it should be JSON or XML document.
 
@@ -20,7 +20,7 @@ Belong to the unit. Delivered from any tool of your choice. The only requirement
 [How to upload a report](upload-report.md)
 {% endhint %}
 
-### **Template**
+#### **Template**
 
 Using templates, you can remove duplicate results from the same tool, as well as similar findings from different tools.
 
@@ -28,7 +28,7 @@ Using templates, you can remove duplicate results from the same tool, as well as
 [How to create a template](create-template.md)
 {% endhint %}
 
-### Issue
+#### Issue
 
 Extracted from the report and formatted based on the template. The Issue is a flexible representation of the results from the report, because you decide which field to display and how.
 
@@ -38,7 +38,7 @@ Extracted from the report and formatted based on the template. The Issue is a fl
 
 ## Play with it
 
-There is a [demo instance of Purify](https://purify-demo.herokuapp.com), feel free to play with it. This instance contains enough data to take a look at all the basic functions of Purify.
+There is a [demo instance of Purify](https://purify-develop.herokuapp.com/), feel free to play with it. This instance contains enough data to take a look at all the basic functions of Purify.
 
 You can find reports samples [here](../report-samples.md).
 
