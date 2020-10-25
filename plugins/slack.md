@@ -2,7 +2,7 @@
 description: Purify + Slack
 ---
 
-# Slack
+# \[DISABLED\] Slack
 
 ## Overview
 

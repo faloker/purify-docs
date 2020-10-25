@@ -12,7 +12,7 @@
   * [Issues](getting-started/issues.md)
 * [Plugins](plugins/README.md)
   * [Jira](plugins/jira.md)
-  * [Slack](plugins/slack.md)
+  * [\[DISABLED\] Slack](plugins/slack.md)
   * [Email](plugins/email.md)
 * [Swagger](swagger.md)
 * [Report Samples](report-samples.md)
