@@ -8,20 +8,13 @@ description: Here you can a way how to upload your reports to Purify.
 
 To upload a report you need to have:
 
-1. Project
-2. Unit inside that project
-
-Also, to work with API you need a token, to obtain it:
-
-```bash
-http POST https://purifyhost/api/auth/token \
-    username="user" \
-    password="pass"
-```
+1. Project and unit within this project
 
 ## Uploading
 
-### File
+When uploading reports, you have two options: via the user interface on the reports tab of a specific unit, or via the API.
+
+### UI
 
 Now you can upload the report as **JSON** or **XML** file.
 
@@ -49,7 +42,11 @@ http -f POST https://purify-demo.herokuapp.com/api/upload/file/main-examples/zap
     file@Downloads/zap-example.xml
 ```
 
-### Oneshot
+### API
+
+
+
+### \[DEPRECATED\] Oneshot
 
 In addition, you can upload your results as separate JSON objects. The most common use case is getting events from the webhook from other tools or systems.
 
@@ -61,7 +58,7 @@ http POST https://purify-demo.herokuapp.com/api/upload/oneshot/main-examples \
     < Downloads/gitleaks-one-object.json
 ```
 
-## API Reference
+## DEPRECATED\] API Reference
 
 [https://purify-demo.herokuapp.com/swagger/\#/upload](https://purify-demo.herokuapp.com/swagger/#/upload)
 
