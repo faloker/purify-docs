@@ -47,15 +47,11 @@ USE_SAML=true
 
 ## Action
 
-Restart Purify and try to login. Connection errors will appear in logs.
+Restart Purify and try to login, the login screen will be changed to:
 
-The new button will appear on the `/welcome` screen:
+![](.gitbook/assets/screenshot-2020-10-25-at-18.24.24.png)
 
-![](.gitbook/assets/screenshot-2020-06-24-at-23.16.09.png)
+Some users, such as admins, may need to bypass single sign-on to complete work tasks. To enable this, when creating users, check the box:
 
-## Extra
-
-After enabling SSO, it might make sense to remove the registration flow.
-
-To do so, set `ALLOW_REGISTRATION=false` in your `.env` file.
+![](.gitbook/assets/screenshot-2020-10-25-at-18.27.31.png)
 

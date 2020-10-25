@@ -26,6 +26,5 @@
 
 ---
 
-* [LDAP](ldap.md)
 * [SSO](sso.md)
 
