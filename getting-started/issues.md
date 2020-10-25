@@ -12,10 +12,10 @@ Issues are extracted from reports based on templates you are specified. Basicall
 
 You can do the following with issues:
 
-* Mark as False Positive
-* Mark as Accepted Risk
+* Mark as **False Positive**
+* Mark as **Accepted Risk**
 * Resolve
-* Create Jira ticket
+* Create **JIRA** ticket
 * Edit issue fields
 * Leave a comment
 
@@ -23,9 +23,9 @@ You can do the following with issues:
 
 ### Simple
 
-Like issues of **Gitleaks**, each field is a piece of text
+Like issues of **Gitleaks**, each field is a piece of text:
 
-![simple and clear](../.gitbook/assets/screenshot-2020-04-04-at-15.09.27.png)
+![](../.gitbook/assets/screenshot-2020-10-25-at-18.17.05.png)
 
 ### Tricky
 
